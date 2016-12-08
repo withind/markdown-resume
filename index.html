@@ -1,44 +1,35 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Markdown Resume Builder by there4</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8">
+    <title>Markdown Resume Builder by withind</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Markdown Resume Builder</h1>
-        <p>An elegant set of css rules for generating a resume with Markdown</p>
+    <section class="page-header">
+      <h1 class="project-name">Markdown Resume Builder</h1>
+      <h2 class="project-tagline">An elegant set of css rules for generating a resume with Markdown</h2>
+      <a href="https://github.com/withind/markdown-resume" class="btn">View on GitHub</a>
+      <a href="https://github.com/withind/markdown-resume/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/withind/markdown-resume/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-        <p class="view"><a href="https://github.com/there4/markdown-resume">View the Project on GitHub <small>there4/markdown-resume</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/there4/markdown-resume/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/there4/markdown-resume/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/there4/markdown-resume">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <p><a href="https://travis-ci.org/there4/markdown-resume"><img src="https://travis-ci.org/there4/markdown-resume.png?branch=master" alt="Build Status"></a></p>
+    <section class="main-content">
+      <p><a href="https://travis-ci.org/there4/markdown-resume"><img src="https://travis-ci.org/there4/markdown-resume.png?branch=master" alt="Build Status"></a></p>
 
 <h1>
-<a name="markdown-resume-generator" class="anchor" href="#markdown-resume-generator"><span class="octicon octicon-link"></span></a>Markdown Resume Generator</h1>
+<a id="markdown-resume-generator" class="anchor" href="#markdown-resume-generator" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Markdown Resume Generator</h1>
 
 <p>Turn a simple Markdown document into an elegant resume with both a perfect
 pdf printable format, and a responsive css3 html5 file. You can view a sample
 at the <a href="http://there4development.com/blog/2012/12/31/markdown-resume-builder/">blog post for the project</a>.</p>
 
 <h2>
-<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2>
 
 <ul>
 <li>Three styles to choose from: modern, blockish, unstyled (Fork and add more!)</li>
@@ -48,8 +39,10 @@ at the <a href="http://there4development.com/blog/2012/12/31/markdown-resume-bui
 <li>Simple Markdown formatting</li>
 <li>Single file deployment (no external stylesheets)</li>
 <li>You can now version control and branch your resume.</li>
-</ul><h2>
-<a name="quickstart" class="anchor" href="#quickstart"><span class="octicon octicon-link"></span></a>Quickstart</h2>
+</ul>
+
+<h2>
+<a id="quickstart" class="anchor" href="#quickstart" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Quickstart</h2>
 
 <p>There is no installation or need to run composer. Just run the phar file:</p>
 
@@ -58,7 +51,7 @@ at the <a href="http://there4development.com/blog/2012/12/31/markdown-resume-bui
 </code></pre>
 
 <h2>
-<a name="help" class="anchor" href="#help"><span class="octicon octicon-link"></span></a>Help</h2>
+<a id="help" class="anchor" href="#help" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Help</h2>
 
 <pre><code>Markdown Resume Generator version 2.0.0 by Craig Davis
 
@@ -85,7 +78,7 @@ Available commands:
 </code></pre>
 
 <h2>
-<a name="examples" class="anchor" href="#examples"><span class="octicon octicon-link"></span></a>Examples</h2>
+<a id="examples" class="anchor" href="#examples" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Examples</h2>
 
 <p>Choose a template with the -t option.</p>
 
@@ -104,7 +97,7 @@ in your browser, and then just save your markdown document when you want to see
 a fresh preview.</p>
 
 <h2>
-<a name="authoring-your-resume" class="anchor" href="#authoring-your-resume"><span class="octicon octicon-link"></span></a>Authoring Your Resume</h2>
+<a id="authoring-your-resume" class="anchor" href="#authoring-your-resume" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authoring Your Resume</h2>
 
 <p>Markdown is limited to basic html markup. Follow the <code>examples/source/sample.md</code>
 file  as a guideline. This file includes various headers and several nested
@@ -119,7 +112,7 @@ this application in the dev mode. See below for more information about doing
 this.</p>
 
 <h2>
-<a name="feature-development" class="anchor" href="#feature-development"><span class="octicon octicon-link"></span></a>Feature Development</h2>
+<a id="feature-development" class="anchor" href="#feature-development" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Feature Development</h2>
 
 <p>The application is deployed as a compiled phar file. In order to add new
 commands, you'll need to first install the dependencies:</p>
@@ -128,11 +121,13 @@ commands, you'll need to first install the dependencies:</p>
 <li><code>composer install</code></li>
 <li><code>pear install PHP_CodeSniffer</code></li>
 <li><a href="https://github.com/indeyets/pake/wiki/Installing-Pake">install pake</a></li>
-</ul><p>After that, you can run the <code>md2resume_dev.php</code> file from the command line.
+</ul>
+
+<p>After that, you can run the <code>md2resume_dev.php</code> file from the command line.
 Check out the pake tooling for more information about the build.</p>
 
 <h2>
-<a name="acknowledgments" class="anchor" href="#acknowledgments"><span class="octicon octicon-link"></span></a>Acknowledgments</h2>
+<a id="acknowledgments" class="anchor" href="#acknowledgments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Acknowledgments</h2>
 
 <p>The initial inspiration is from the <a href="http://sampleresumetemplate.net/" title="A great starting point">Sample Resume Template</a>.
 However, no HTML from that project has been used in this. General layout has
@@ -140,7 +135,7 @@ been reused, and media queries have been added. It's a nice template, and if you
 are a more comfortable with html than markdown, you should use it.</p>
 
 <h2>
-<a name="changelog" class="anchor" href="#changelog"><span class="octicon octicon-link"></span></a>Changelog</h2>
+<a id="changelog" class="anchor" href="#changelog" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Changelog</h2>
 
 <ul>
 <li>
@@ -166,14 +161,16 @@ are managed with composer.</li>
 <li>
 <strong>0.8</strong> : Initial Release to Public </li>
 </ul>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/there4">there4</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/withind/markdown-resume">Markdown Resume Builder</a> is maintained by <a href="https://github.com/withind">withind</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
+
+    </section>
+
+            <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
